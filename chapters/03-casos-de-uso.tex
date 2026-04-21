@@ -1,0 +1,21 @@
+\chapter{Casos de Uso}
+
+\section{Gestión de Tareas}
+
+\begin{usecase}{Crear Nueva Tarea}
+    \cubody{
+        nombre=Crear Nueva Tarea,
+        id=CU-01,
+        actores=Usuario autenticado,
+        objetivo=Añadir una nueva tarea al sistema,
+        descripcion=El usuario ingresa los datos necesarios para registrar una nueva tarea pendiente en su lista.,
+        tipo=Primario,
+        precondiciones=El usuario debe estar autenticado en el sistema.,
+        dependencias=Ninguna,
+        normal=1. El usuario hace clic en "Nueva Tarea". \\ 2. El sistema muestra el formulario. \\ 3. El usuario rellena los datos y guarda. \\ 4. El sistema registra la tarea y muestra un mensaje de éxito.,
+        alternativas=3a. Faltan datos obligatorios: El sistema resalta los campos vacíos.,
+        postcondiciones=Se ha creado una nueva tarea en la base de datos asociada al usuario.,
+        importancia=Alta,
+        comentarios=Este es un caso de uso fundamental del sistema.
+    }
+\end{usecase}

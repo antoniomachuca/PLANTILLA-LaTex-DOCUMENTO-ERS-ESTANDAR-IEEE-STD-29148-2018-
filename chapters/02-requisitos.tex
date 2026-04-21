@@ -1,0 +1,21 @@
+\chapter{Requisitos del Sistema}
+
+\section{Requisitos Funcionales}
+
+\begin{requirement}{Autenticación de Usuarios}
+    \reqbody
+        {El sistema debe permitir a los usuarios iniciar sesión utilizando un correo electrónico y una contraseña segura.}
+        {Correo electrónico, contraseña}
+        {Verificación de credenciales en la base de datos}
+        {Token de sesión / Acceso al sistema}
+        {Credenciales inválidas, Cuenta bloqueada}
+\end{requirement}
+
+\begin{requirement}{Creación de Tareas}
+    \reqbody
+        {Un usuario autenticado podrá crear nuevas tareas asignándoles un título, descripción y fecha de vencimiento.}
+        {Título, Descripción, Fecha de Vencimiento}
+        {Validación de datos y almacenamiento en base de datos}
+        {Confirmación de creación, nueva tarea en la lista}
+        {Datos incompletos, Fecha en el pasado}
+\end{requirement}
