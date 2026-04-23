@@ -13,6 +13,7 @@ Una plantilla profesional de LaTeX para crear documentos de Especificación de R
 
 ```text
 ├── srsdocument.cls    # Clase principal de la plantilla (¡No modificar a menos que sepas lo que haces!)
+├── EJEMPLO.pdf        # Documento pdf de ERS de ejemplo de la plantilla
 ├── main.tex           # Documento principal donde se importa todo
 ├── Makefile           # Utilidad para compilar rápidamente (opcional)
 ├── chapters/          # Directorio para los capítulos del documento
